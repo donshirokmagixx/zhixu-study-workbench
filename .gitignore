@@ -1,0 +1,17 @@
+data/
+__pycache__/
+*.pyc
+.venv/
+*.db
+_backup/
+
+# Local configuration, database sidecars, and test output
+.env
+.env.*
+!.env.example
+*.db-*
+*.sqlite*
+*.log
+/zhixu_*/
+/.opencode/
+/codex/

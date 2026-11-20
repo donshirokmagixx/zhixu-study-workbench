@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+httpx
+pypdf
+PyMuPDF
+python-docx
+python-pptx
+rapidocr-onnxruntime
+pywin32
+latex2mathml
+mathml2omml

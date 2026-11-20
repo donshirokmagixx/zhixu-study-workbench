@@ -1,0 +1,80 @@
+{
+  "profile_id": "generic-cn-course-paper-v1",
+  "profile_version": "1.0.0",
+  "display_name": "通用中文课程论文（团队默认模板）",
+  "authority": "team_default",
+  "school_compliance_claim": false,
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {"top": 25.4, "bottom": 25.4, "left": 25.4, "right": 25.4}
+  },
+  "styles": {
+    "title": {
+      "font": {"east_asian": "黑体", "latin": "Times New Roman"},
+      "font_size_pt": 18,
+      "bold": true,
+      "alignment": "center",
+      "first_line_indent": {"unit": "char", "value": 0},
+      "line_spacing": {"type": "multiple", "value": 1.5},
+      "space_before_pt": 0,
+      "space_after_pt": 12
+    },
+    "body": {
+      "font": {"east_asian": "宋体", "latin": "Times New Roman"},
+      "font_size_pt": 12,
+      "bold": false,
+      "alignment": "justify",
+      "first_line_indent": {"unit": "char", "value": 2},
+      "line_spacing": {"type": "multiple", "value": 1.5},
+      "space_before_pt": 0,
+      "space_after_pt": 0
+    },
+    "heading1": {
+      "font": {"east_asian": "黑体", "latin": "Times New Roman"},
+      "font_size_pt": 16,
+      "bold": true,
+      "alignment": "left",
+      "first_line_indent": {"unit": "char", "value": 0},
+      "line_spacing": {"type": "multiple", "value": 1.5},
+      "space_before_pt": 12,
+      "space_after_pt": 6,
+      "keep_with_next": true
+    },
+    "heading2": {
+      "font": {"east_asian": "黑体", "latin": "Times New Roman"},
+      "font_size_pt": 14,
+      "bold": true,
+      "alignment": "left",
+      "first_line_indent": {"unit": "char", "value": 0},
+      "line_spacing": {"type": "multiple", "value": 1.5},
+      "space_before_pt": 6,
+      "space_after_pt": 6,
+      "keep_with_next": true
+    },
+    "heading3": {
+      "font": {"east_asian": "宋体", "latin": "Times New Roman"},
+      "font_size_pt": 12,
+      "bold": true,
+      "alignment": "left",
+      "first_line_indent": {"unit": "char", "value": 0},
+      "line_spacing": {"type": "multiple", "value": 1.5},
+      "space_before_pt": 6,
+      "space_after_pt": 0,
+      "keep_with_next": true
+    },
+    "caption": {
+      "font": {"east_asian": "宋体", "latin": "Times New Roman"},
+      "font_size_pt": 10.5,
+      "bold": false,
+      "alignment": "center",
+      "first_line_indent": {"unit": "char", "value": 0},
+      "line_spacing": {"type": "multiple", "value": 1.0},
+      "space_before_pt": 3,
+      "space_after_pt": 3
+    }
+  },
+  "preserve": ["text", "math_objects", "citations", "bookmarks", "fields", "footnotes", "images", "tables", "section_breaks", "inline_emphasis"],
+  "undefined_rules": ["school_cover", "reference_citation_standard", "header_footer_content", "page_numbering", "abstract_word_limit"],
+  "output_policy": {"preserve_original": true, "require_structure_check": true, "require_visual_check_for_verified_layout": true}
+}
